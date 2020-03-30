@@ -93,7 +93,8 @@ class Map extends React.Component {
             'type': 'Feature',
             'geometry': {
               'type': 'Point',
-              'coordinates': [0, 0]
+              // coordinates are long, lat
+              'coordinates': [-123.159644, 49.698322]
             }
           }]
         }
