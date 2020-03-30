@@ -17,7 +17,14 @@ class Map extends React.Component {
   }
 
   render () {
-    return <div ref={el => this.mapContainer = el} />;
+    const style = {
+      position: 'absolute',
+      top: 0,
+      bottom: 0,
+      width: '100%'
+    };
+
+    return <div style={style} ref={el => this.mapContainer = el} />;
   }
 }
 
